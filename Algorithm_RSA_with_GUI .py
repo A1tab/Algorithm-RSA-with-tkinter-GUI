@@ -197,33 +197,4 @@ btn_decode.place(x=350, y=410)
 fav = tk.PhotoImage(file='C:/Users/250/Desktop/Py/RSA/favicon.png')
 win.iconphoto(False, fav)
 
-
-
-
-# p, q = random.choices(get_prime_numbers(), k=2)
-# mod = p * q
-# fi = (p-1) * (q-1)
-# e = find_e(fi)
-# d = find_d(e, fi)
-
-
-# publickey =  {e, mod}
-# privalkey  = {d, mod}
-
-# message = 'hello' #entry_text.get(1.0, END)
-
-# encode_m = RSA_encode(message, e, mod)
-# decode_m = ''.join(RSA_decode(encode_m, d, mod))
-
-# print(encode_m)
-# print(decode_m)
-
-
-# print('p, q, mod is ', p, q, mod)
-# print('fi is ',fi)
-# print('e is ',e)
-# print(RSA_encode('Hello', e, mod))
-# q = (RSA_encode('Hello', e, mod))
-# print(''.join(RSA_decode(q, d, mod)))
-
 win.mainloop()
